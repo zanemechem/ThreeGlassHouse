@@ -1,11 +1,19 @@
 //IMPORTS//
 import * as THREE from 'https://unpkg.com/three/build/three.module.js';
 import { OrbitControls } from 'https://unpkg.com/three/examples/jsm/controls/OrbitControls.js';
+import {GLTFLoader} from 'https://unpkg.com/three/examples/jsm/loaders/GLTFLoader.js'
 
 //SCENE//
 const scene = new THREE.Scene();
 const axesHelper = new THREE.AxesHelper(2); scene.add(axesHelper);
+const loader = new GLTFLoader();
 
+loader.load("meshes/weedplant.glb",function(gltf){
+    scene.add(gltf.scene);
+
+}, undefined , function(error){
+    console.error(error);
+})
 //CAMERA//
 const camera = new THREE.PerspectiveCamera(30,window.innerWidth/window.innerHeight,.01,1000);
 
