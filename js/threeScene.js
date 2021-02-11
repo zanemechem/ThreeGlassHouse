@@ -2,7 +2,7 @@
 
 			import * as THREE from 'https://unpkg.com/three/build/three.module.js';
 
-			import { DeviceOrientationControls } from 'https://unpkg.com/three/three/examples/jsm/controls/DeviceOrientationControls.js';
+			import { DeviceOrientationControls } from 'https://unpkg.com/three/examples/jsm/controls/DeviceOrientationControls.js';
 
 			let camera, scene, renderer, controls;
 
