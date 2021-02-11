@@ -8,7 +8,7 @@
 
 			const startButton = document.getElementById( 'startButton' );
 
-
+        checkGyroscope();
 				init();
 				animate();
 
@@ -29,7 +29,7 @@
 				geometry.scale( - 1, 1, 1 );
 
 				const material = new THREE.MeshBasicMaterial( {
-					map: new THREE.TextureLoader().load( '/textures/panotest.jpg' )
+					map: new THREE.TextureLoader().load( 'ThreeGlassHouse/textures/panotest.jpg' )
 				} );
 
 				const mesh = new THREE.Mesh( geometry, material );
@@ -72,4 +72,10 @@
 
 			}
 
-		
+      function checkGyroscope(){
+        var gyroPresent = false;
+        window.addEventListener("devicemotion", function(event){
+          if(event.rotationRate.alpha || event.rotationRate.beta || event.rotationRate.gamma)
+              gyroPresent = true;
+      });
+      }
