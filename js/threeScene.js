@@ -29,7 +29,7 @@
 				geometry.scale( - 1, 1, 1 );
 
 				const material = new THREE.MeshBasicMaterial( {
-					map: new THREE.TextureLoader().load( '../textures/panotest.jpg' )
+					map: new THREE.TextureLoader().load( '/textures/panotest.jpg' )
 				} );
 
 				const mesh = new THREE.Mesh( geometry, material );
