@@ -9,7 +9,7 @@ var manualControl = false;
 			var savedLatitude;
 			
 			// panoramas background
-			var panoramasArray = ["textures/equi.jpg","textures/equi_Rocks.jpg","textures/equi2.jpg","textures/notree.png"];
+			var panoramasArray = ["textures/equi_Rocks.jpg","textures/equi2.jpg","textures/panoPurple.png","textures/clPan2.png","textures/installation.jpg"];
 			var panoramaNumber = Math.floor(Math.random()*panoramasArray.length);
 
 			// setting up the renderer
