@@ -9,8 +9,8 @@ var manualControl = false;
 			var savedLatitude;
 			
 			// panoramas background
-			var panoramasArray = ["textures/equi_Rocks.jpg","textures/equi2.jpg","textures/panoPurple.jpg","textures/clPan2.jpg","textures/installation.jpg"];
-			var panoramaNumber = Math.floor(Math.random()*panoramasArray.length);
+			var panoramasArray = ["textures/s1L.jpg","textures/s2L.jpg","textures/s2L2.jpg","textures/s3L.jpg","textures/i1L.jpg","textures/i2L.jpg","textures/i3L.jpg","textures/h1L.jpg","textures/h2L.jpg"];
+			var panoramaNumber = 0;
 
 			// setting up the renderer
 			const renderer = new THREE.WebGLRenderer();
