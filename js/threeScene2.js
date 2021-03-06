@@ -9,7 +9,9 @@ var manualControl = false;
 			var savedLatitude;
 			
 			// panoramas background
-			var panoramasArray = ["textures/s1L.jpg","textures/s2L.jpg","textures/s2L2.jpg","textures/s3L.jpg","textures/s3L2.jpg","textures/i1L.jpg","textures/i2L.jpg","textures/i3L.jpg","textures/h1L.jpg","textures/h2L.jpg","textures/h2L2.jpg"];
+			var panoramasArray = ["textures/H4.jpg","textures/H5.jpg","textures/s1L.jpg","textures/s2L.jpg","textures/s2L2.jpg","textures/s3L.jpg",
+			"textures/s3L2.jpg","textures/i1L.jpg","textures/i2L.jpg","textures/i3L.jpg","textures/h1L.jpg",
+			"textures/h2L.jpg","textures/h2L2.jpg","textures/h3.jpg"];
 			var panoramaNumber = 0;
 
 			// setting up the renderer
