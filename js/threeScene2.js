@@ -9,7 +9,7 @@ var manualControl = false;
 			var savedLatitude;
 			
 			// panoramas background
-			var panoramasArray = ["textures/Sativa_forAudio.jpg","textures/Indica_forAudio.jpg","textures/HybridTest_inside.jpg","textures/HybridTest_outside2.jpg"];
+			var panoramasArray = ["textures/Sativa_forAudio.jpg","textures/Indica_forAudio.jpg","textures/HybridTest_outside3.jpg","textures/HybridTest_outside4.jpg"];
 			var panoramaNumber = 0;
 
 			// setting up the renderer
