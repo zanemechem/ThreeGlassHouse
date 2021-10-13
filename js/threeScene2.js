@@ -9,7 +9,7 @@ var manualControl = false;
 			var savedLatitude;
 			
 			// panoramas background
-			var panoramasArray = ["textures/equirect_Gallery.png","textures/equirect_Gallery2.png","textures/equirect_3pro.png"];
+			var panoramasArray = ["textures/equirect_Gallery.png","textures/pc_render_composited.png","textures/pc_Render.png","textures/equirect_Gallery2.png","textures/equirect_3pro.png"];
 			var panoramaNumber = 0;
 
 			// setting up the renderer
